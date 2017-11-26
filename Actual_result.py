@@ -5,7 +5,7 @@ y = []
 
 data = []
 set1 = set()
-with open("/home/darkmatter/Documents/Network/data/higgs-activity_time.txt", "r") as myfile:
+with open("/home/darkmatter/Documents/Rumour_Spreading_Modelling/data/higgs-activity_time.txt", "r") as myfile:
     for words in myfile:
         words = words.strip()
         data.append(words)

@@ -8,7 +8,7 @@ N_phase4 = 0
 
 
 def main():
-    with open("/home/darkmatter/Documents/Network/data/higgs-activity_time.txt", "r") as main_file:
+    with open("/home/darkmatter/Documents/Rumour_Spreading_Modelling/data/higgs-activity_time.txt", "r") as main_file:
         global N
         for text in main_file:
             text = text.split()
@@ -17,7 +17,7 @@ def main():
 
     set1.clear()
 
-    with open("/home/darkmatter/Documents/Network/data/data_set_1.txt", "r") as main_file:
+    with open("data/data_set_1.txt", "r") as main_file:
         global N_phase2
         for text in main_file:
             text = text.split()
@@ -25,14 +25,14 @@ def main():
             N_phase2 = len(set1)
 
 
-    with open("/home/darkmatter/Documents/Network/data/data_set_2.txt", "r") as main_file:
+    with open("data/data_set_2.txt", "r") as main_file:
         global N_phase3
         for text in main_file:
             text = text.split()
             set1.add(text[0])
             N_phase3 = len(set1)
 
-    with open("/home/darkmatter/Documents/Network/data/data_set_3.txt", "r") as main_file:
+    with open("data/data_set_3.txt", "r") as main_file:
         global N_phase4
         for text in main_file:
             text = text.split()
