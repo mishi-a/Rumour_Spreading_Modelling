@@ -21,6 +21,8 @@ which comes after refinement
 
 4.Test.py :- This merges all the above files and plots the relevant graph
 
+5.Data : This directory contain required data for our project.
+
 ##################################################################################################
 
 Design decision :
