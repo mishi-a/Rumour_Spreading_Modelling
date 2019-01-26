@@ -1,15 +1,13 @@
 # Rumour_Spreading_Modelling
 
-##################################################################################################
 
-How to run this Project ?
+#### How to run this Project ?
 
    Run "test.py" present in the Project directory by using Following command.
    
     python3 test.py
-##################################################################################################
 
-Files Included within the project:
+#### Files Included within the project:
 
 1.Network.py :- It is used to create our estimated graph using the given formula with the help of matplotlib
 
@@ -23,27 +21,20 @@ which comes after refinement
 
 5.Data : This directory contain required data for our project.
 
-##################################################################################################
-
-Design decision :
+#### Design decision :
 
    This project follows from the research paper "The Anatomy Of scientific Rumour".In this we have used the "Higgs Twitter Activity time" dataset to model How the Rumour spread over the network.Finally we plotted the obtained result of fraction of active user vs time.
 
-###################################################################################################
-
-Result :
+#### Result :
 
   We have verified that rumour over a network can be modelled using SI (susceptible-Infected) Model.
 
-###################################################################################################
-
-Plot included :
+#### Plot included :
 
   Plot.png : plot of obtained result through SI model vs Actual result over various phase.
+  ![alt text](https://github.com/Ayush-IITP/Rumour_Spreading_Modelling/blob/master/Plot.png)
 
-###################################################################################################
-
-Tools and Packages required:
+#### Tools and Packages required:
 
 1.python (version 3.4)
 
